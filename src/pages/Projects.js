@@ -1,14 +1,10 @@
 import React, { useState } from 'react';
-import { FiCalendar, FiTag, FiTrendingUp } from 'react-icons/fi';
 import { projects } from '../data/mockData';
 import './Projects.css';
 
 const Projects = () => {
-  const [selectedFilter, setSelectedFilter] = useState('All');
-  const [selectedStatus, setSelectedStatus] = useState('All');
-
-  const categories = ['All', 'Circular Economy', 'Clean Technology', 'Sustainable Materials', 'Resource Recovery', 'Chemical Innovation', 'Renewable Energy'];
-  const statuses = ['All', 'Completed', 'In Progress', 'Planning'];
+  const [selectedFilter] = useState('All');
+  const [selectedStatus] = useState('All');
 
   const filteredProjects = projects.filter(project => {
     const categoryMatch = selectedFilter === 'All' || project.category === selectedFilter;

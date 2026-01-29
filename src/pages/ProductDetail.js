@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { FiArrowLeft, FiCheckCircle, FiDroplet, FiThermometer, FiClock, FiTrendingUp } from 'react-icons/fi';
+import { FiArrowLeft, FiCheckCircle, FiDroplet, FiThermometer, FiClock } from 'react-icons/fi';
 import { projects } from '../data/mockData';
 import './ProductDetail.css';
 

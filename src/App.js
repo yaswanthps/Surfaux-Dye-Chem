@@ -8,7 +8,6 @@ import ServiceDetail from './pages/ServiceDetail';
 import Projects from './pages/Projects';
 import ProductDetail from './pages/ProductDetail';
 import Contact from './pages/Contact';
-import NotFound from './pages/NotFound';
 import './App.css';
 
 function App() {

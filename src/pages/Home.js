@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FiArrowRight, FiSun, FiUsers, FiTrendingUp, FiAward } from 'react-icons/fi';
-import { services, projects, blogPosts, companyStats, testimonials } from '../data/mockData';
+import { FiArrowRight } from 'react-icons/fi';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -61,10 +60,6 @@ const Home = () => {
       }
     ]
   };
-
-  const featuredServices = services.slice(0, 3);
-  const featuredProjects = projects.slice(0, 3);
-  const latestPosts = blogPosts.slice(0, 3);
 
   return (
     <div className="home">

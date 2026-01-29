@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FiSun, FiTarget, FiUsers, FiAward } from 'react-icons/fi';
+import { FiSun, FiTarget, FiAward } from 'react-icons/fi';
 import { teamMembers, companyStats } from '../data/mockData';
 import './About.css';
 
